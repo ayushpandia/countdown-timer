@@ -1,0 +1,62 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(170, 244, 244);
+}
+.input-box {
+  display: flex;
+  justify-content: center;
+}
+
+.input-box > input {
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.timer-button {
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(18, 202, 88);
+  outline: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.footer-button {
+  height: 40px;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#pause-btn {
+  height: 40px;
+  width: 80px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: yellow;
+}
+
+#reset-btn {
+  height: 40px;
+  width: 80px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: red;
+}
